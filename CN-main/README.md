@@ -68,12 +68,21 @@ CareNavigator/
    ```
 
 4. **Environment Variables**:
-   Create a `.env` file in the root directory and configure the Gemini API key and other secrets:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   SECRET_KEY=your_django_secret_key
-   DEBUG=True
+   Copy the example file and fill in your keys:
+   ```bash
+   cp .env.example .env
    ```
+   Then edit `.env` and add your Google Gemini API key(s):
+   ```env
+   GEMINI_API_KEY_1=your_gemini_api_key_here
+   GEMINI_API_KEY_2=
+   GEMINI_API_KEY_3=
+   GEMINI_API_KEY=your_gemini_api_key_here
+   DJANGO_SECRET_KEY=django-insecure-change-this-in-production
+   DJANGO_DEBUG=True
+   ALLOWED_HOSTS=localhost,127.0.0.1
+   ```
+   > **Note**: At minimum you need `GEMINI_API_KEY_1` or `GEMINI_API_KEY` set. Multiple keys enable automatic failover when API quota is exhausted.
 
 5. **Database Migrations**:
    Run the migrations to create the database schemas:
