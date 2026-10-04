@@ -1,0 +1,11 @@
+# CareNavigator - Python Dependencies
+# =====================================
+
+# Web Framework
+Django==5.2.12
+
+# Environment variable management
+python-dotenv==1.2.2
+
+# Google Gemini AI (for symptom analysis & lab report analysis)
+google-generativeai==0.8.6

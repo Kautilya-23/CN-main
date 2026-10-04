@@ -1,0 +1,106 @@
+{% load i18n %}
+<section id="results-section" class="hidden" aria-label="{% trans 'Search results' %}">
+
+  <!-- New Search -->
+  <button id="new-search-btn" class="new-search-btn" aria-label="{% trans 'Start a new search' %}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <polyline points="15 18 9 12 15 6" />
+    </svg>
+    {% trans "New Search" %}
+  </button>
+
+  <div class="results-grid">
+
+    <!-- ── LEFT: Hospital List ── -->
+    <div class="results-list-col">
+
+      <div class="results-list-header">
+        <h3 class="results-title">{% trans "Recommended Hospitals" %}</h3>
+
+        <div class="filter-wrap">
+          <svg class="fi-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
+          </svg>
+          <select id="hospital-filter" class="filter-select" aria-label="{% trans 'Filter by hospital type' %}">
+            <option value="all">{% trans "All Hospitals" %}</option>
+            <option value="government">{% trans "Government" %}</option>
+            <option value="trust">{% trans "Trust" %}</option>
+            <option value="private">{% trans "Private" %}</option>
+            <option value="premium">{% trans "Premium" %}</option>
+          </select>
+          <svg class="fi-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </div>
+      </div>
+      <!-- Cards injected here by JS -->
+      <div id="hospitals-list" aria-live="polite"></div>
+
+    </div>
+
+    <!-- ── RIGHT: Summary Sidebar ── -->
+    <div class="results-sidebar">
+      <div class="sidebar-card">
+
+        <div class="sidebar-header">
+          <span class="sidebar-header-label">{% trans "Your Search" %}</span>
+          <h4>{% trans "Analysis Summary" %}</h4>
+        </div>
+
+        <div class="sidebar-body">
+
+          <div class="sb-field">
+            <span class="sb-field-label">{% trans "Symptoms" %}</span>
+            <p id="summary-symptoms" class="sb-field-value">-</p>
+          </div>
+
+          <div class="sb-divider"></div>
+
+          <div class="sb-field">
+            <span class="sb-field-label">{% trans "Location" %}</span>
+            <p id="summary-location" class="sb-field-value mono">-</p>
+          </div>
+
+          <!-- AI analysis block - shown after analysis -->
+          <div id="ai-analysis-summary" class="hidden">
+            <div class="sb-divider"></div>
+
+            <div class="sb-field">
+              <span class="sb-field-label">{% trans "Recommended Specialist" %}</span>
+              <p id="summary-speciality" class="sb-speciality">-</p>
+            </div>
+
+            <div class="sb-field">
+              <span class="sb-field-label">{% trans "Urgency Level" %}</span>
+              <span id="summary-urgency" class="urgency-badge">-</span>
+            </div>
+
+            <!-- Consult Now Option for Low Urgency -->
+            <div id="consult-now-wrapper" class="sb-field hidden">
+              <span class="sb-field-label">{% trans "Consultation" %}</span>
+              <div class="consult-now-option">
+                <button class="consult-now-btn" disabled aria-label="{% trans 'Consult Now - Coming Soon' %}">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="width: 14px; height: 14px; margin-top: 1px;">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                  {% trans "Consult Now" %}
+                  <span class="coming-soon-tag">{% trans "Coming Soon" %}</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="sb-field">
+              <span class="sb-field-label">{% trans "Possible Conditions" %}</span>
+              <div id="summary-diseases" class="disease-tags"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

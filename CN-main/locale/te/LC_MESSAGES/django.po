@@ -1,0 +1,785 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-26 11:45+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Telugu\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\CareNavigator_Django\settings.py:112
+msgid "English"
+msgstr "English"
+
+#: .\CareNavigator_Django\settings.py:113
+msgid "हिन्दी"
+msgstr "हिन्दी"
+
+#: .\CareNavigator_Django\settings.py:114
+msgid "मराठी"
+msgstr "मराठी"
+
+#: .\CareNavigator_Django\settings.py:115
+msgid "ગુજરાતી"
+msgstr "ગુજરાતી"
+
+#: .\CareNavigator_Django\settings.py:116
+msgid "ਪੰਜਾਬੀ"
+msgstr "ਪੰਜਾਬੀ"
+
+#: .\CareNavigator_Django\settings.py:117
+msgid "বাংলা"
+msgstr "বাংলা"
+
+#: .\CareNavigator_Django\settings.py:118
+msgid "தமிழ்"
+msgstr "தமிழ்"
+
+#: .\CareNavigator_Django\settings.py:119
+msgid "తెలుగు"
+msgstr "తెలుగు"
+
+#: .\core\templates\core\all_hospitals.html:839
+msgid "Medical Directory"
+msgstr "వైద్య నిర్దేశిక"
+
+#: .\core\templates\core\all_hospitals.html:842
+msgid "Browse top-rated medical facilities near you"
+msgstr "మీ సమీపంలోని అత్యుత్తమ వైద్య సౌకర్యాలను చూడండి"
+
+#: .\core\templates\core\all_hospitals.html:849
+msgid "Filter"
+msgstr "వడపోత"
+
+#: .\core\templates\core\all_hospitals.html:852
+#, fuzzy
+#| msgid "All Hospitals"
+msgid "Filter hospitals"
+msgstr "అన్ని ఆసుపత్రులు"
+
+#: .\core\templates\core\all_hospitals.html:865
+#, fuzzy
+#| msgid "Filter"
+msgid "Filter by city"
+msgstr "వడపోత"
+
+#: .\core\templates\core\all_hospitals.html:866
+msgid "All Cities"
+msgstr "అన్ని నగరాలు"
+
+#: .\core\templates\core\all_hospitals.html:886
+#, fuzzy
+#| msgid "Filter"
+msgid "Filter by type"
+msgstr "వడపోత"
+
+#: .\core\templates\core\all_hospitals.html:887
+msgid "All Types"
+msgstr "అన్ని రకాలు"
+
+#: .\core\templates\core\all_hospitals.html:907
+msgid "Filter by rating"
+msgstr "రేటింగ్ ద్వారా ఫిల్టర్"
+
+#: .\core\templates\core\all_hospitals.html:908
+msgid "Any Rating"
+msgstr "ఏదైనా రేటింగ్"
+
+#: .\core\templates\core\all_hospitals.html:909
+msgid "4.5+ Excellent"
+msgstr "4.5+ అద్భుతం"
+
+#: .\core\templates\core\all_hospitals.html:911
+msgid "4.0+ Very Good"
+msgstr "4.0+ చాలా మంచిది"
+
+#: .\core\templates\core\all_hospitals.html:913
+msgid "3.5+ Good"
+msgstr "3.5+ మంచిది"
+
+#: .\core\templates\core\all_hospitals.html:915
+msgid "3.0+ Average"
+msgstr "3.0+ సగటు"
+
+#: .\core\templates\core\all_hospitals.html:934
+msgid "Filter by pincode"
+msgstr "పిన్‌కోడ్ ద్వారా ఫిల్టర్"
+
+#: .\core\templates\core\all_hospitals.html:935
+msgid "All Pincodes"
+msgstr "అన్ని పిన్‌కోడ్‌లు"
+
+#: .\core\templates\core\all_hospitals.html:950
+#, fuzzy
+#| msgid "Clear All Filters"
+msgid "Reset all filters"
+msgstr "అన్ని వడపోతలు తొలగించండి"
+
+#: .\core\templates\core\all_hospitals.html:956
+msgid "Reset"
+msgstr "రీసెట్ చేయండి"
+
+#: .\core\templates\core\all_hospitals.html:965
+#, fuzzy
+#| msgid "Facilities"
+msgid "Facility categories"
+msgstr "సౌకర్యాలు"
+
+#: .\core\templates\core\all_hospitals.html:1020
+#, python-format
+msgid ""
+"Showing <strong>%(counter)s</strong>\n"
+"        result"
+msgid_plural "Showing <strong>%(counter)s</strong> results"
+msgstr[0] ""
+"<strong>%(counter)s</strong>\n"
+"        ఫలితాలు చూపబడుచున్నాయి"
+msgstr[1] ""
+"<strong>%(counter)s</strong>\n"
+"        ఫలితాలు చూపబడుచున్నాయి"
+
+#: .\core\templates\core\all_hospitals.html:1072
+msgid "Facilities"
+msgstr "సౌకర్యాలు"
+
+#: .\core\templates\core\all_hospitals.html:1081
+msgid "Beds"
+msgstr "పడకలు"
+
+#: .\core\templates\core\all_hospitals.html:1092
+msgid "Doctors"
+msgstr "వైద్యులు"
+
+#: .\core\templates\core\all_hospitals.html:1102
+msgid "Equipment"
+msgstr "పరికరాలు"
+
+#: .\core\templates\core\all_hospitals.html:1125
+msgid "Specialities"
+msgstr "ప్రత్యేకతలు"
+
+#: .\core\templates\core\all_hospitals.html:1131
+msgid "more"
+msgstr "మరిన్ని"
+
+#: .\core\templates\core\all_hospitals.html:1150
+msgid "24/7 Ambulance"
+msgstr "24/7 అంబులెన్స్"
+
+#: .\core\templates\core\all_hospitals.html:1164
+#: .\core\templates\core\base.html:921
+msgid "Directions"
+msgstr "దిశలు"
+
+#: .\core\templates\core\all_hospitals.html:1173
+#: .\core\templates\core\base.html:922
+msgid "No Map"
+msgstr "మ్యాప్ లేదు"
+
+#: .\core\templates\core\all_hospitals.html:1178
+msgid "View Details"
+msgstr "వివరాలు చూడండి"
+
+#: .\core\templates\core\all_hospitals.html:1201
+msgid "No hospitals found"
+msgstr "ఆసుపత్రులు ఏవీ కనుగొనబడలేదు"
+
+#: .\core\templates\core\all_hospitals.html:1202
+msgid "We couldn't find any hospitals matching your filters. Try adjusting your search criteria."
+msgstr "మీ వడపోతలకు సరిపోలే ఆసుపత్రులు ఏవీ కనుగొనబడలేదు. మీ శోధన ప్రమాణాలను మార్చడానికి ప్రయత్నించండి."
+
+#: .\core\templates\core\all_hospitals.html:1209
+msgid "Clear All Filters"
+msgstr "అన్ని వడపోతలు తొలగించండి"
+
+#: .\core\templates\core\base.html:711
+msgid "Skip to main content"
+msgstr "ప్రధాన విషయానికి వెళ్ళు"
+
+#: .\core\templates\core\base.html:717
+msgid "CareNavigator Home"
+msgstr "కేర్‌నావిగేటర్ హోమ్"
+
+#: .\core\templates\core\base.html:727
+msgid "Main navigation"
+msgstr "ప్రధాన నావిగేషన్"
+
+#: .\core\templates\core\base.html:734
+msgid "Home"
+msgstr "హోమ్"
+
+#: .\core\templates\core\base.html:742
+#: .\core\templates\core\partials\hero.html:629
+msgid "Hospitals"
+msgstr "ఆసుపత్రులు"
+
+#: .\core\templates\core\base.html:750
+#: .\core\templates\core\lab_report.html:886
+msgid "Lab Report"
+msgstr "ల్యాబ్ నివేదిక"
+
+#: .\core\templates\core\base.html:755 .\core\templates\core\base.html:773
+msgid "Select language"
+msgstr "భాషను ఎంచుకోండి"
+
+#: .\core\templates\core\base.html:814
+#: .\core\templates\core\partials\main_form.html:672
+msgid "Disclaimer:"
+msgstr "నిరాకరణ:"
+
+#: .\core\templates\core\base.html:814
+#: .\core\templates\core\partials\main_form.html:672
+msgid "AI-generated results are for informational purposes only. Always consult a medical professional for emergencies and health decisions."
+msgstr "AI ద్వారా రూపొందించబడిన ఫలితాలు కేవలం సమాచార ప్రయోజనాల కోసం మాత్రమే. అత్యవసర పరిస్థితులు మరియు ఆరోగ్య నిర్ణయాల కోసం ఎల్లప్పుడూ వైద్య నిపుణుడిని సంప్రదించండి."
+
+#: .\core\templates\core\base.html:822
+msgid "Emergency services"
+msgstr "అత్యవసర సేవలు"
+
+#: .\core\templates\core\base.html:832
+#: .\core\templates\core\hospital_detail.html:168
+msgid "Emergency"
+msgstr "అత్యవసరం"
+
+#: .\core\templates\core\base.html:852
+msgid "Emergency Services"
+msgstr "అత్యవసర సేవలు"
+
+#: .\core\templates\core\base.html:854
+msgid "Close"
+msgstr "మూసివేయండి"
+
+#: .\core\templates\core\base.html:865 .\core\templates\core\base.html:866
+msgid "National Emergency Ambulance"
+msgstr "జాతీయ అత్యవసర అంబులెన్స్"
+
+#: .\core\templates\core\base.html:879 .\core\templates\core\base.html:880
+msgid "Police Emergency"
+msgstr "పోలీస్ అత్యవసరం"
+
+#: .\core\templates\core\base.html:900
+msgid "For life-threatening emergencies, call"
+msgstr "ప్రాణాంతక అత్యవసర పరిస్థితుల కోసం, కాల్ చేయండి"
+
+#: .\core\templates\core\base.html:900
+msgid "immediately. You can also contact hospitals directly for ambulance services."
+msgstr "తక్షణం. అంబులెన్స్ సేవల కోసం మీరు నేరుగా ఆసుపత్రులను సంప్రదించవచ్చు."
+
+#: .\core\templates\core\base.html:915
+msgid "Unable to process request. Please try again."
+msgstr "అభ్యర్థనను ప్రాసెస్ చేయడం సాధ్యం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి."
+
+#: .\core\templates\core\base.html:916
+msgid "No hospitals found for this filter."
+msgstr "ఈ ఫిల్టర్ కోసం ఆసుపత్రులు ఏవీ కనుగొనబడలేదు."
+
+#: .\core\templates\core\base.html:917
+msgid "beds"
+msgstr "పడకలు"
+
+#: .\core\templates\core\base.html:918
+msgid "doctors"
+msgstr "వైద్యులు"
+
+#: .\core\templates\core\base.html:919
+msgid "Hospital"
+msgstr "ఆసుపత్రి"
+
+#: .\core\templates\core\base.html:920
+msgid "Details"
+msgstr "వివరాలు"
+
+#: .\core\templates\core\base.html:923
+msgid "Loading hospital details…"
+msgstr "ఆసుపత్రి వివరాలు లోడ్ అవుతున్నాయి…"
+
+#: .\core\templates\core\base.html:924
+msgid "Failed to load details."
+msgstr "వివరాలు లోడ్ చేయడంలో విఫలమైంది."
+
+#: .\core\templates\core\base.html:925
+msgid "Summary of Symptoms"
+msgstr "లక్షణాల సారాంశం"
+
+#: .\core\templates\core\base.html:926
+msgid "Estimated Cost"
+msgstr "అంచనా వ్యయం"
+
+#: .\core\templates\core\base.html:927
+msgid "Book Appointment"
+msgstr "అపాయింట్‌మెంట్ బుక్ చేయండి"
+
+#: .\core\templates\core\base.html:928
+msgid "Call Hospital"
+msgstr "ఆసుపత్రికి కాల్ చేయండి"
+
+#: .\core\templates\core\hospital_detail.html:21
+#: .\core\templates\core\partials\results.html:27
+msgid "All Hospitals"
+msgstr "అన్ని ఆసుపత్రులు"
+
+#: .\core\templates\core\hospital_detail.html:60
+msgid "Get Directions"
+msgstr "దిశలు పొందండి"
+
+#: .\core\templates\core\hospital_detail.html:73
+msgid "Share"
+msgstr "పంచుకోండి"
+
+#: .\core\templates\core\hospital_detail.html:98
+msgid "Medical Specialities"
+msgstr "వైద్య ప్రత్యేకతలు"
+
+#: .\core\templates\core\hospital_detail.html:99
+msgid "Available departments and services"
+msgstr "అందుబాటులో ఉన్న విభాగాలు మరియు సేవలు"
+
+#: .\core\templates\core\hospital_detail.html:120
+msgid "No specific specialities listed."
+msgstr "ఏ నిర్దిష్ట ప్రత్యేకతలు జాబితా చేయబడలేదు."
+
+#: .\core\templates\core\hospital_detail.html:136
+msgid "Facilities & Equipment"
+msgstr "సౌకర్యాలు మరియు పరికరాలు"
+
+#: .\core\templates\core\hospital_detail.html:137
+msgid "Available infrastructure and services"
+msgstr "అందుబాటులో ఉన్న మౌలిక సదుపాయాలు మరియు సేవలు"
+
+#: .\core\templates\core\hospital_detail.html:141
+msgid "Bed Capacity"
+msgstr "పడక సామర్థ్యం"
+
+#: .\core\templates\core\hospital_detail.html:149
+msgid "Total Beds"
+msgstr "మొత్తం పడకలు"
+
+#: .\core\templates\core\hospital_detail.html:157
+msgid "ICU Beds"
+msgstr "ICU పడకలు"
+
+#: .\core\templates\core\hospital_detail.html:172
+msgid "Diagnostic Equipment"
+msgstr "రోగ నిర్ధారణ పరికరాలు"
+
+#: .\core\templates\core\hospital_detail.html:182
+msgid "X-Ray"
+msgstr "ఎక్స్-రే"
+
+#: .\core\templates\core\hospital_detail.html:183
+#: .\core\templates\core\hospital_detail.html:194
+#: .\core\templates\core\hospital_detail.html:205
+#: .\core\templates\core\hospital_detail.html:216
+#: .\core\templates\core\hospital_detail.html:231
+#: .\core\templates\core\hospital_detail.html:242
+#: .\core\templates\core\hospital_detail.html:253
+#: .\core\templates\core\hospital_detail.html:264
+msgid "Available"
+msgstr "అందుబాటులో ఉంది"
+
+#: .\core\templates\core\hospital_detail.html:183
+#: .\core\templates\core\hospital_detail.html:194
+#: .\core\templates\core\hospital_detail.html:205
+#: .\core\templates\core\hospital_detail.html:216
+#: .\core\templates\core\hospital_detail.html:231
+#: .\core\templates\core\hospital_detail.html:242
+#: .\core\templates\core\hospital_detail.html:253
+#: .\core\templates\core\hospital_detail.html:264
+msgid "Not available"
+msgstr "అందుబాటులో లేదు"
+
+#: .\core\templates\core\hospital_detail.html:193
+msgid "MRI"
+msgstr "MRI"
+
+#: .\core\templates\core\hospital_detail.html:204
+msgid "CT Scan"
+msgstr "CT స్కాన్"
+
+#: .\core\templates\core\hospital_detail.html:215
+msgid "Ultrasound"
+msgstr "అల్ట్రాసౌండ్"
+
+#: .\core\templates\core\hospital_detail.html:220
+msgid "Services"
+msgstr "సేవలు"
+
+#: .\core\templates\core\hospital_detail.html:230
+msgid "Blood Bank"
+msgstr "రక్త బ్యాంకు"
+
+#: .\core\templates\core\hospital_detail.html:241
+msgid "Laboratory"
+msgstr "ప్రయోగశాల"
+
+#: .\core\templates\core\hospital_detail.html:252
+msgid "Pharmacy"
+msgstr "ఫార్మసీ"
+
+#: .\core\templates\core\hospital_detail.html:263
+msgid "Ambulance"
+msgstr "అంబులెన్స్"
+
+#: .\core\templates\core\hospital_detail.html:275
+msgid "Operation Theaters"
+msgstr "ఆపరేషన్ థియేటర్లు"
+
+#: .\core\templates\core\hospital_detail.html:295
+msgid "Medical Team"
+msgstr "వైద్య బృందం"
+
+#: .\core\templates\core\hospital_detail.html:296
+msgid "Our experienced doctors and specialists"
+msgstr "మా అనుభవజ్ఞులైన వైద్యులు మరియు నిపుణులు"
+
+#: .\core\templates\core\hospital_detail.html:308
+msgid "Head"
+msgstr "అధిపతి"
+
+#: .\core\templates\core\hospital_detail.html:348
+msgid "No doctor information available at this time."
+msgstr "ప్రస్తుతం వైద్యుల సమాచారం అందుబాటులో లేదు."
+
+#: .\core\templates\core\hospital_detail.html:364
+msgid "Accepted Insurance & Schemes"
+msgstr "అంగీకరించిన బీమా మరియు పథకాలు"
+
+#: .\core\templates\core\hospital_detail.html:365
+msgid "Payment methods and coverage"
+msgstr "చెల్లింపు పద్ధతులు మరియు కవరేజ్"
+
+#: .\core\templates\core\hospital_detail.html:407
+msgid "Contact hospital directly for insurance and scheme details."
+msgstr "బీమా మరియు పథకం వివరాల కోసం నేరుగా ఆసుపత్రిని సంప్రదించండి."
+
+#: .\core\templates\core\hospital_detail.html:420
+msgid "Get in Touch"
+msgstr "సంప్రదించండి"
+
+#: .\core\templates\core\hospital_detail.html:421
+msgid "Contact Information"
+msgstr "సంప్రదింపు సమాచారం"
+
+#: .\core\templates\core\hospital_detail.html:435
+msgid "Emergency Line"
+msgstr "అత్యవసర లైన్"
+
+#: .\core\templates\core\hospital_detail.html:454
+msgid "Ambulance Service"
+msgstr "అంబులెన్స్ సేవ"
+
+#: .\core\templates\core\hospital_detail.html:469
+msgid "Full Address"
+msgstr "పూర్తి చిరునామా"
+
+#: .\core\templates\core\hospital_detail.html:486
+msgid "Need a Checkup?"
+msgstr "పరీక్ష అవసరమా?"
+
+#: .\core\templates\core\hospital_detail.html:487
+msgid "Use our AI-powered symptom checker to get a preliminary health analysis before your visit."
+msgstr "మీ సందర్శనకు ముందు ప్రాథమిక ఆరోగ్య విశ్లేషణ పొందడానికి మా AI-శక్తితో నడిచే లక్షణ తనిఖీదారుని ఉపయోగించండి."
+
+#: .\core\templates\core\hospital_detail.html:489
+msgid "Check Symptoms Now"
+msgstr "ఇప్పుడే లక్షణాలు తనిఖీ చేయండి"
+
+#: .\core\templates\core\lab_report.html:789
+msgid "Understand Your<br>Lab Report Instantly"
+msgstr "మీ <br>ల్యాబ్ నివేదికను తక్షణమే అర్థం చేసుకోండి"
+
+#: .\core\templates\core\lab_report.html:790
+msgid "Upload your lab report and get a clear, plain-English explanation - what each value means, what's normal, and what conditions it might indicate."
+msgstr "మీ ల్యాబ్ నివేదికను అప్‌లోడ్ చేసి స్పష్టమైన, సరళమైన భాషలో వివరణ పొందండి - ప్రతి విలువ ఏమిటో, ఏది సాధారణమో, మరియు ఏ పరిస్థితులను సూచించవచ్చో."
+
+#: .\core\templates\core\lab_report.html:795
+#: .\core\templates\core\lab_report.html:798
+#, fuzzy
+#| msgid "Drop your lab report here"
+msgid "Upload lab report file"
+msgstr "ఇక్కడ మీ ల్యాబ్ నివేదికను వదలండి"
+
+#: .\core\templates\core\lab_report.html:808
+msgid "Drop your lab report here"
+msgstr "ఇక్కడ మీ ల్యాబ్ నివేదికను వదలండి"
+
+#: .\core\templates\core\lab_report.html:809
+msgid "or click to browse"
+msgstr "లేదా బ్రౌజ్ చేయడానికి క్లిక్ చేయండి"
+
+#: .\core\templates\core\lab_report.html:827
+msgid "Remove selected file"
+msgstr "ఎంచుకున్న ఫైల్‌ను తొలగించండి"
+
+#: .\core\templates\core\lab_report.html:855
+msgid "Analyze Report"
+msgstr "నివేదికను విశ్లేషించండి"
+
+#: .\core\templates\core\lab_report.html:863
+msgid "Gemini is reading your report"
+msgstr "Gemini మీ నివేదికను చదువుతోంది"
+
+#: .\core\templates\core\lab_report.html:866
+msgid "This may take 10-20 seconds"
+msgstr "ఇది 10-20 సెకన్లు పట్టవచ్చు"
+
+#: .\core\templates\core\lab_report.html:887
+msgid "Overall Summary"
+msgstr "మొత్తం సారాంశం"
+
+#: .\core\templates\core\lab_report.html:905
+msgid "Test Parameters"
+msgstr "పరీక్షా పారామితులు"
+
+#: .\core\templates\core\lab_report.html:906
+msgid "Each value explained in simple language"
+msgstr "ప్రతి విలువ సరళమైన భాషలో వివరించబడింది"
+
+#: .\core\templates\core\lab_report.html:927
+#: .\core\templates\core\partials\results.html:82
+msgid "Possible Conditions"
+msgstr "సాధ్యమైన పరిస్థితులు"
+
+#: .\core\templates\core\lab_report.html:928
+msgid "What these results might indicate"
+msgstr "ఈ ఫలితాలు ఏమిని సూచించవచ్చు"
+
+#: .\core\templates\core\lab_report.html:947
+msgid "What To Do Next"
+msgstr "తదుపరి ఏమి చేయాలి"
+
+#: .\core\templates\core\lab_report.html:948
+msgid "Recommended next steps"
+msgstr "సిఫారసు చేయబడిన తదుపరి దశలు"
+
+#: .\core\templates\core\lab_report.html:966
+msgid "This analysis is AI-generated for informational purposes only. Please consult a qualified doctor."
+msgstr "ఈ విశ్లేషణ కేవలం సమాచార ప్రయోజనాల కోసం AI ద్వారా రూపొందించబడింది. దయచేసి అర్హులైన వైద్యుడిని సంప్రదించండి."
+
+#: .\core\templates\core\lab_report.html:985
+msgid "Past Analyses"
+msgstr "గత విశ్లేషణలు"
+
+#: .\core\templates\core\lab_report.html:986
+msgid "Last 3 months"
+msgstr "గత 3 నెలలు"
+
+#: .\core\templates\core\lab_report.html:1026
+msgid "Upload your first lab report to get started!"
+msgstr "ప్రారంభించడానికి మీ మొదటి ల్యాబ్ నివేదికను అప్‌లోడ్ చేయండి!"
+
+#: .\core\templates\core\partials\details.html:2
+#, fuzzy
+#| msgid "Hospitals"
+msgid "Hospital details"
+msgstr "ఆసుపత్రులు"
+
+#: .\core\templates\core\partials\details.html:3
+msgid "Back to results list"
+msgstr "ఫలితాల జాబితాకు తిరిగి వెళ్ళు"
+
+#: .\core\templates\core\partials\details.html:8
+#, fuzzy
+#| msgid "Instant results"
+msgid "Back to Results"
+msgstr "తక్షణ ఫలితాలు"
+
+#: .\core\templates\core\partials\hero.html:513
+msgid "AI-Powered Healthcare"
+msgstr "AI-శక్తితో నడిచే ఆరోగ్య సేవ"
+
+#: .\core\templates\core\partials\hero.html:517
+msgid ""
+"Find the right care,<br>\n"
+"          <strong>right when</strong> you need it"
+msgstr ""
+"సరైన సేవను కనుగొనండి,<br>\n"
+"          <strong>సరిగ్గా అప్పుడే</strong> మీకు అవసరమైనప్పుడు"
+
+#: .\core\templates\core\partials\hero.html:522
+msgid "Describe your symptoms and get instant recommendations for nearby specialists, hospitals, and estimated treatment costs."
+msgstr "మీ లక్షణాలను వివరించి సమీపంలోని నిపుణులు, ఆసుపత్రులు మరియు అంచనా వేయబడిన చికిత్స వ్యయాల కోసం తక్షణ సిఫారసులు పొందండి."
+
+#: .\core\templates\core\partials\hero.html:532
+msgid "Find Care Now"
+msgstr "ఇప్పుడే సేవ కనుగొనండి"
+
+#: .\core\templates\core\partials\hero.html:540
+msgid "Browse Hospitals"
+msgstr "ఆసుపత్రులను బ్రౌజ్ చేయండి"
+
+#: .\core\templates\core\partials\hero.html:550
+msgid "Free to use"
+msgstr "ఉచితంగా ఉపయోగించవచ్చు"
+
+#: .\core\templates\core\partials\hero.html:558
+msgid "Instant results"
+msgstr "తక్షణ ఫలితాలు"
+
+#: .\core\templates\core\partials\hero.html:566
+msgid "Real hospital data"
+msgstr "నిజమైన ఆసుపత్రి డేటా"
+
+#: .\core\templates\core\partials\hero.html:596
+#: .\core\templates\core\partials\results.html:63
+msgid "Location"
+msgstr "స్థానం"
+
+#: .\core\templates\core\partials\hero.html:607
+msgid "Search"
+msgstr "శోధించు"
+
+#: .\core\templates\core\partials\hero.html:618
+msgid "Ratings"
+msgstr "రేటింగ్‌లు"
+
+#: .\core\templates\core\partials\hero.html:641
+msgid "Costs"
+msgstr "వ్యయాలు"
+
+#: .\core\templates\core\partials\main_form.html:573
+msgid "Symptom analysis form"
+msgstr "లక్షణ విశ్లేషణ ఫారమ్"
+
+#: .\core\templates\core\partials\main_form.html:583
+#: .\core\templates\core\partials\main_form.html:707
+msgid "AI Analysis"
+msgstr "AI విశ్లేషణ"
+
+#: .\core\templates\core\partials\main_form.html:585
+msgid "Start your <strong>health journey</strong>"
+msgstr "మీ <strong>ఆరోగ్య ప్రయాణాన్ని</strong> ప్రారంభించండి"
+
+#: .\core\templates\core\partials\main_form.html:586
+msgid "Tell us what you're experiencing"
+msgstr "మీరు అనుభవిస్తున్నది మాకు చెప్పండి"
+
+#: .\core\templates\core\partials\main_form.html:605
+msgid "Describe your symptoms"
+msgstr "మీ లక్షణాలను వివరించండి"
+
+#: .\core\templates\core\partials\main_form.html:608
+msgid "E.g., I have had a severe high fever for 3 days with joint pain and nausea…"
+msgstr "ఉదా., నాకు 3 రోజులుగా కీళ్ళ నొప్పి మరియు వికారంతో తీవ్రమైన జ్వరం ఉంది…"
+
+#: .\core\templates\core\partials\main_form.html:610
+#, fuzzy
+#| msgid "Describe your symptoms"
+msgid "Speak your symptoms"
+msgstr "మీ లక్షణాలను వివరించండి"
+
+#: .\core\templates\core\partials\main_form.html:624
+msgid "Listening…"
+msgstr "వింటున్నది…"
+
+#: .\core\templates\core\partials\main_form.html:630
+msgid "Your location"
+msgstr "మీ స్థానం"
+
+#: .\core\templates\core\partials\main_form.html:658
+msgid "Analyze & Find Hospitals"
+msgstr "విశ్లేషించి ఆసుపత్రులను కనుగొనండి"
+
+#: .\core\templates\core\partials\main_form.html:668
+msgid "Analyzing…"
+msgstr "విశ్లేషిస్తోంది…"
+
+#: .\core\templates\core\partials\main_form.html:681
+msgid "Process"
+msgstr "ప్రక్రియ"
+
+#: .\core\templates\core\partials\main_form.html:682
+msgid "How it <strong>works</strong>"
+msgstr "ఇది ఎలా <strong>పనిచేస్తుందో</strong>"
+
+#: .\core\templates\core\partials\main_form.html:696
+msgid "Input Symptoms"
+msgstr "లక్షణాలను నమోదు చేయండి"
+
+#: .\core\templates\core\partials\main_form.html:697
+msgid "Describe what you're feeling in plain language - no medical jargon required."
+msgstr "మీరు అనుభవిస్తున్నది సరళమైన భాషలో వివరించండి - వైద్య పదజాలం అవసరం లేదు."
+
+#: .\core\templates\core\partials\main_form.html:708
+msgid "Our AI identifies potential causes and the right specialist type for your condition."
+msgstr "మా AI మీ పరిస్థితికి సాధ్యమైన కారణాలు మరియు సరైన నిపుణుల రకాన్ని గుర్తిస్తుంది."
+
+#: .\core\templates\core\partials\main_form.html:719
+msgid "Get Recommendations"
+msgstr "సిఫారసులు పొందండి"
+
+#: .\core\templates\core\partials\main_form.html:720
+msgid "See nearby hospitals ranked by rating, with estimated treatment costs."
+msgstr "రేటింగ్ ప్రకారం శ్రేణీకరించబడిన సమీప ఆసుపత్రులను అంచనా వేయబడిన చికిత్స వ్యయాలతో చూడండి."
+
+#: .\core\templates\core\partials\results.html:2
+#, fuzzy
+#| msgid "Instant results"
+msgid "Search results"
+msgstr "తక్షణ ఫలితాలు"
+
+#: .\core\templates\core\partials\results.html:5
+msgid "Start a new search"
+msgstr "కొత్త శోధన ప్రారంభించండి"
+
+#: .\core\templates\core\partials\results.html:10
+msgid "New Search"
+msgstr "కొత్త శోధన"
+
+#: .\core\templates\core\partials\results.html:19
+msgid "Recommended Hospitals"
+msgstr "సిఫారసు చేయబడిన ఆసుపత్రులు"
+
+#: .\core\templates\core\partials\results.html:26
+msgid "Filter by hospital type"
+msgstr "ఆసుపత్రి రకం ద్వారా ఫిల్టర్"
+
+#: .\core\templates\core\partials\results.html:28
+msgid "Government"
+msgstr "ప్రభుత్వ"
+
+#: .\core\templates\core\partials\results.html:29
+msgid "Trust"
+msgstr "ట్రస్ట్"
+
+#: .\core\templates\core\partials\results.html:30
+msgid "Private"
+msgstr "ప్రైవేట్"
+
+#: .\core\templates\core\partials\results.html:31
+msgid "Premium"
+msgstr "ప్రీమియం"
+
+#: .\core\templates\core\partials\results.html:49
+msgid "Your Search"
+msgstr "మీ శోధన"
+
+#: .\core\templates\core\partials\results.html:50
+msgid "Analysis Summary"
+msgstr "విశ్లేషణ సారాంశం"
+
+#: .\core\templates\core\partials\results.html:56
+msgid "Symptoms"
+msgstr "లక్షణాలు"
+
+#: .\core\templates\core\partials\results.html:72
+msgid "Recommended Specialist"
+msgstr "సిఫారసు చేయబడిన నిపుణుడు"
+
+#: .\core\templates\core\partials\results.html:77
+msgid "Urgency Level"
+msgstr "అత్యవసరత స్థాయి"
+
+#~ msgid "Find a <strong>Hospital</strong>"
+#~ msgstr "ఒక <strong>ఆసుపత్రిని</strong> కనుగొనండి"
